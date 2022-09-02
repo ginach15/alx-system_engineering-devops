@@ -1,1 +1,1 @@
-script prints path
+welcome
