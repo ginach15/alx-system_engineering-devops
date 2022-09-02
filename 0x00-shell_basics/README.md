@@ -1,1 +1,1 @@
-display dirctory
+creates a directory
