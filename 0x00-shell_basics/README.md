@@ -1,1 +1,1 @@
-script prits path
+script that changes path
