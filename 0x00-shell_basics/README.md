@@ -1,1 +1,1 @@
-display dirctory
+welcome
