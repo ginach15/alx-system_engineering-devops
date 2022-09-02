@@ -1,1 +1,1 @@
-this is readme
+script prits path
