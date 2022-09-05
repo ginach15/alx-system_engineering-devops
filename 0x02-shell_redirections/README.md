@@ -1,1 +1,1 @@
-script that prints "Helo, world"
+what "Hello, world"
