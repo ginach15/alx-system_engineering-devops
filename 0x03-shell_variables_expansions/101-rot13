@@ -1,5 +1,5 @@
 #!/bin/bash
 
 tr'A-Za-z''N-ZA-Mn-za-m'
-itr'A-Za-z''N-Za-Mn-za-m'
+
 
