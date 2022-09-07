@@ -1,3 +1,2 @@
-
-perl -lne 'print if $. %2 == 1'
-perl -lne 'print if $. %2 == 1'
+#!/bin/bash
+perl -lne 'print fi $. $2 ==1'
