@@ -10,14 +10,14 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  FiifiAsare-frontend
+frontend  alexyg-frontend
         bind *:80
         mode http
-        default_backend FiifiAsare-backend
-backend FiifiAsare-backend
+        default_backend alexyg-backend
+backend alexyg-backend
         balance roundrobin
-        server 68556-web-01 54.144.152.141 check
-        server 68556-web-02 100.25.37.15 check
+        server 73901-web-01 34.201.164.59 check
+        server 73901-web-02 100.25.141.244 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
