@@ -10,10 +10,10 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  alexyg-frontend
+frontend  ginach15-frontend
         bind *:80
         mode http
-        default_backend alexyg-backend
+        default_backend alex-backend
 backend alexyg-backend
         balance roundrobin
         server 73901-web-01 34.201.164.59 check
