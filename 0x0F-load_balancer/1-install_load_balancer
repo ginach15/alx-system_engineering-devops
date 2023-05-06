@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Install haproxy and configurate both servers
+#Install haproxy and configurate both web-01 and web-02 servers
 
 apt-get -y update
 apt-get -y install haproxy
