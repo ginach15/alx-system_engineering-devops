@@ -46,6 +46,6 @@ frontend alexyg.tech
 
 backend alexyg.tech_backend
         balance roundrobin
-        server 64820-web-01 100.26.152.157:80 check
-        server 64820-web-02 52.86.102.6:80 check
+        server 64820-web-01 34.201.164.59:80 check
+        server 64820-web-02 100.25.141.244:80 check
 
